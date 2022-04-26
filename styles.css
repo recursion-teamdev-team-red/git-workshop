@@ -1,0 +1,56 @@
+/* -----------規定要素のstyle-------- */
+ul {
+    list-style-type: square;
+}
+
+li {
+    color: #dc3545;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+/* -----------各font class----------- */
+.title-text {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* おみくじの結果の◯吉の部分 */
+.result-text {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+}
+
+.content-head-text {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 1.5rem;
+}
+
+.developer-name-text {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Shippori Mincho', serif;
+    line-height: 2.5;
+}
+
+.content-body-text {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Shippori Mincho', serif;
+    line-height: 1.5;
+}
+
+.btn-text {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Shippori Mincho', serif;
+}
+
+.footer-text {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 0.7rem;
+}
