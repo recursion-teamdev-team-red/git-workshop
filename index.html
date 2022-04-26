@@ -17,8 +17,8 @@
     <title>ソフトウェア開発おみくじ</title>
 </head>
 <body>
-    <div class="vh-100 d-flex flex-column align-items-center justify-content-center" style="background-color: lightcoral;">
-        <div class="text-center">
+    <div class="vh-100 d-flex flex-column align-items-center justify-content-center simple-linear">
+        <div id="home" class="text-center">
             <div class="mb-5">
                 <h1 class="font3rem text-danger font-bold">ソフトウェア開発</h1>
                 <h1 class="font3rem text-danger font-bold">みくじ</h1>
@@ -34,6 +34,44 @@
                     <a class="text-danger font0q7rem" href="/about.html">このおみくじについて</a> | <a class="text-danger font0q7rem" href="/developers.html">開発者一覧</a>
                 </p>
                 <p class="text-danger font0q7rem">&copyソフトウェア開発おみくじ</p>
+            </div>
+        </div>
+
+        <div id="result">
+            <div class="overflow-auto d-none">
+                <div style="padding: 0.3rem; background-color:red">
+                    <div style="padding: 0.1rem; background-color: white">
+                        <div style="padding: 0.1rem; background-color:red">
+                            <div class="d-flex flex-column text-center bg-white">
+                                <div class="mx-2 border-red">
+                                    <h1>ソフトウェア開発みくじ</h1>
+                                </div>
+                                <div class="mx-2 border-red">
+                                    <img src="/image/daikichi.png" alt="" width="200px">
+                                    <h2>大吉</h2>
+                                </div>
+                                <div class="mx-2 border-red border-gray">
+                                    <p>リファクタリングに成功してプログラムが爆速に!!サクサク動いて気持ちいいーーー!!</p>
+                                </div>
+                                <div class="mx-2 border-red border-gray">
+                                    <h3>ラッキー言語</h3>
+                                    <p>Ruby</p>
+                                </div>
+                                <div class="mx-2 border-red border-gray">
+                                    <h3>ラッキーデータベース</h3>
+                                    <p>SQL Server</p>
+                                </div>
+                                <div class="mx-2  border-gray">
+                                    <h3>ラッキーエディタ</h3>
+                                    <p>nano</p>
+                                </div>
+                                <div class="my-3">
+                                    <button type="button" class="btn btn-danger rounded-pill">もう一度おみくじを引く</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

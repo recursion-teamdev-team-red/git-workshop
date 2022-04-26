@@ -1,3 +1,18 @@
+.simple-linear {
+    background: linear-gradient(#ffdab9, #f4978e);
+}
+
+.border-red {
+    border-bottom: solid;
+    border-bottom-width: 0.2rem;
+    border-bottom-color: red;
+}
+
+.border-gray {
+    border-top: solid;
+    border-top-width: 0.1rem;
+    border-top-color: rgb(200, 200, 200);
+
 /* -----------規定要素のstyle-------- */
 body {
     font-family: 'Noto Serif JP', serif;
