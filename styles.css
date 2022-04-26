@@ -1,4 +1,9 @@
 /* -----------規定要素のstyle-------- */
+body {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Shippori Mincho', serif;
+}
+
 ul {
     list-style-type: square;
 }
@@ -10,47 +15,27 @@ li {
 a {
     text-decoration-line: none;
 }
-
 /* -----------各font class----------- */
-.title-text {
-    font-family: 'Noto Serif JP', serif;
-    font-family: 'Shippori Mincho', serif;
-    font-weight: bold;
-    font-size: 3rem;
+.font0q7rem{
+    font-size: 0.7rem;
 }
 
-/* おみくじの結果の◯吉の部分 */
-.result-text {
-    font-family: 'Noto Serif JP', serif;
-    font-family: 'Shippori Mincho', serif;
-    font-weight: bold;
-}
-
-.content-head-text {
-    font-family: 'Noto Serif JP', serif;
-    font-family: 'Shippori Mincho', serif;
+.font1q5rem{
     font-size: 1.5rem;
 }
 
-.developer-name-text {
-    font-family: 'Noto Serif JP', serif;
-    font-family: 'Shippori Mincho', serif;
-    line-height: 2.5;
+.font3rem{
+    font-size: 3rem;
 }
 
-.content-body-text {
-    font-family: 'Noto Serif JP', serif;
-    font-family: 'Shippori Mincho', serif;
+.font-bold {
+    font-weight: bold;
+}
+
+.line-height1q5 {
     line-height: 1.5;
 }
 
-.btn-text {
-    font-family: 'Noto Serif JP', serif;
-    font-family: 'Shippori Mincho', serif;
-}
-
-.footer-text {
-    font-family: 'Noto Serif JP', serif;
-    font-family: 'Shippori Mincho', serif;
-    font-size: 0.7rem;
+.line-height2q5 {
+    line-height: 2.5;
 }
