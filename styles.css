@@ -1,3 +1,45 @@
+/* -----------規定要素のstyle-------- */
+body {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Shippori Mincho', serif;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    color: #dc3545;
+}
+
+a {
+    text-decoration-line: none;
+}
+/* -----------各font class----------- */
+.font0q7rem{
+    font-size: 0.7rem;
+}
+
+.font1q5rem{
+    font-size: 1.5rem;
+}
+
+.font3rem{
+    font-size: 3rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.line-height1q5 {
+    line-height: 1.5;
+}
+
+.line-height2q5 {
+    line-height: 2.5;
+}
+  
 .frame{
   width: 300px;
   border: thick double #ff0000;
