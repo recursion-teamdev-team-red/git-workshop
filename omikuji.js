@@ -1,3 +1,4 @@
+import { daikichi, tyukichi, shokichi, kichi, kyo, daikyo} from "./resultText.js";
 export class Omikuji{
     static omikujiLog = [];
     static luckArray = ["大吉", "中吉", "小吉", "吉", "凶", "大凶"];
@@ -12,6 +13,14 @@ export class Omikuji{
         "凶": ["kyo1.png", "kyo2.png", "kyo3.png"],
         "大凶": ["daikyo1.png", "daikyo2.png"],
     };
+    static resultTextObjects = {
+        "大吉": daikichi,
+        "中吉": tyukichi,
+        "小吉": shokichi,
+        "吉": kichi,
+        "凶": kyo,
+        "大凶": daikyo,
+    };
 
     constructor(){
         this.luck = this.getResult(Omikuji.luckArray);
@@ -19,6 +28,7 @@ export class Omikuji{
         this.luckyDB = this.getResult(Omikuji.luckyDBArray);
         this.luckyEditor = this.getResult(Omikuji.luckyEditorArray);
         this.resultImage = this.getResult(Omikuji.resultImageObjects[this.luck]);
+        this.resultText = this.getResult(Omikuji.resultTextObjects[this.luck]);
         this.addResult(this);
     };
 
