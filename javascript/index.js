@@ -1,4 +1,4 @@
-import { Omikuji } from '/omikuji.js';
+import { Omikuji } from '../javascript/omikuji.js';
 
 const config = {
     startBtn : document.getElementById("start-btn"),

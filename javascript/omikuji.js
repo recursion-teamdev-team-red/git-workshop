@@ -1,4 +1,4 @@
-import { daikichi, tyukichi, shokichi, kichi, kyo, daikyo} from "./resultText.js";
+import { daikichi, tyukichi, shokichi, kichi, kyo, daikyo} from "../javascript/resultText.js";
 export class Omikuji{
     static omikujiLog = [];
 
