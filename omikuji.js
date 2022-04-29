@@ -1,4 +1,4 @@
-class Omikuji{
+export class Omikuji{
     static omikujiLog = [];
     static luckArray = ["大吉", "中吉", "小吉", "吉", "凶", "大凶"];
     static luckyLangArray = ["Ruby", "JavaScript", "TypeScript", "Go", "Rust"];
