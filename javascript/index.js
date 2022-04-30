@@ -44,8 +44,8 @@ function createResultPage(omikujiObj){
             <p class="my-3">${omikujiObj.luckyLang}</p>
         </div>
         <div class="w-90 mx-2 border-red border-gray">
-            <p class="my-3">✿ラッキーデータベース✿</p>
-            <p>${omikujiObj.luckyDB}</p>
+            <p class="my-3">✿ラッキー筋トレ✿</p>
+            <p>${omikujiObj.luckyMuscleTraining}</p>
         </div>
         <div class="w-90 mx-2 border-gray">
             <p class="my-3">✿ラッキーエディタ✿</p>
