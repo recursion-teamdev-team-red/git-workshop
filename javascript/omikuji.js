@@ -4,14 +4,23 @@ export class Omikuji{
 
     constructor(){
         const luckArray = ["大吉", "中吉", "小吉", "吉", "凶", "大凶"];
-        const luckyLangArray = ["Ruby", "JavaScript", "TypeScript", "Go", "Rust"];
+        const luckyLangArray = ["Ruby", "JavaScript", "TypeScript", "Go", "Rust", "Python", "Java"];
         const luckyMuscleTrainingArray = [
             "Bulgarian squat",
             "incline curl",
             "twist crunch",
             "smith machine incline bench press"
         ];
-        const luckyEditorArray = ["VSCode", "Vim", "memo"];
+        const luckyRecursionCourseArray = [
+            "初級",
+            "中級",
+            "上級",
+            "OOP",
+            "デザインパターン",
+            "Git",
+            "Vue.js",
+            "Project4 Library App"
+        ];
         const resultImageObjects = {
             "大吉": ["daikichi1.png", "daikichi2.png", "daikichi3.png"],
             "中吉": ["tyukichi1.png", "tyukichi2.png", "tyukichi3.png"],
@@ -31,7 +40,7 @@ export class Omikuji{
         this.luck = this.getResult(luckArray);
         this.luckyLang = this.getResult(luckyLangArray);
         this.luckyMuscleTraining = this.getResult(luckyMuscleTrainingArray);
-        this.luckyEditor = this.getResult(luckyEditorArray);
+        this.luckyRecursionCourse = this.getResult(luckyRecursionCourseArray);
         this.resultImage = this.getResult(resultImageObjects[this.luck]);
         this.resultText = this.getResult(resultTextObjects[this.luck]);
         this.addResult(this);

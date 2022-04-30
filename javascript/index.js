@@ -33,8 +33,8 @@ function createResultPage(omikujiObj){
             <h1 class="my-3 font1rem font-bold">ソフトウェア開発みくじ</h1>
         </div>
         <div class="w-90 mx-2 border-red border-gray">
-            <img src="/image/${omikujiObj.resultImage}" class="my-3" alt="" width="200px">
-            <h2 class="text-danger font-bold font3rem my-3">${omikujiObj.luck}</h2>
+            <img src="/image/${omikujiObj.resultImage}" class="mt-3" alt="" width="200px">
+            <h2 class="text-danger font-bold font4rem mb-3">${omikujiObj.luck}</h2>
         </div>
         <div class="w-90 mx-2 border-red border-gray">
             <p class="my-3">${omikujiObj.resultText}</p>
@@ -48,14 +48,14 @@ function createResultPage(omikujiObj){
             <p>${omikujiObj.luckyMuscleTraining}</p>
         </div>
         <div class="w-90 mx-2 border-gray">
-            <p class="my-3">✿ラッキーエディタ✿</p>
-            <p class="my-3">${omikujiObj.luckyEditor}</p>
+            <p class="my-3">✿ラッキーRecurionコース✿</p>
+            <p class="my-3">${omikujiObj.luckyRecursionCourse}</p>
         </div>
         <div class="my-2 w-100">
-            <button id="back-btn" type="button" class="btn btn-danger rounded-pill w-90">もう一度おみくじを引く</button>
+            <button id="back-btn" type="button" class="btn btn-danger rounded-pill w-70">もう一度おみくじを引く</button>
         </div>
         <div class="mb-3 w-100">
-            <button id="log-btn" type="button" class="btn btn-danger rounded-pill w-90">過去の運勢を確認する</button>
+            <button id="log-btn" type="button" class="btn btn-danger rounded-pill w-70">過去の運勢を確認する</button>
         </div>
     `
     container.querySelectorAll("#back-btn")[0].addEventListener("click", function(){
