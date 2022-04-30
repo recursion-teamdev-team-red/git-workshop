@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .border-red {
     border-bottom: solid;
     border-bottom-width: 0.2rem;
@@ -60,8 +66,24 @@ a {
 .line-height2q5 {
     line-height: 2.5;
 }
-  
-.frame{
+
+.omikuji-log {
+    width: 3rem;
+    margin:1rem auto;
+    display: block;
+    font-weight: bold;
+    border-radius: 100vh;
+    border: 1px solid rgb(236, 210, 210);
+    background-color: #ead8d8;
+}
+
+.omikuji-log:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+/* ------フレーム--------- */
+.frame {
   width: 300px;
   border: thick double #ff0000;
   outline: 0.2rem solid #ff0000;
