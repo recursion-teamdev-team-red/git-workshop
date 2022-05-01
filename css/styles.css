@@ -43,19 +43,23 @@ a {
     text-decoration-line: none;
 }
 /* -----------各font class----------- */
-.font0q7rem{
+.font0q7rem {
     font-size: 0.7rem;
 }
 
-.font1q5rem{
-    font-size: 1.5rem;
-}
-
-.font1rem{
+.font1rem {
     font-size: 1rem;
 }
 
-.font4rem{
+.font1q5rem {
+    font-size: 1.5rem;
+}
+
+.font3rem {
+    font-size: 3rem;
+}
+
+.font4rem {
     font-size: 4rem;
 }
 
