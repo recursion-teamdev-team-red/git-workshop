@@ -7,9 +7,9 @@ export class Omikuji{
         const luckyLangArray = ["Ruby", "JavaScript", "TypeScript", "Go", "Rust"];
         const luckyMuscleTrainingArray = [
             "Bulgarian squat",
-            "incline curl",
-            "twist crunch",
-            "smith machine incline bench press"
+            "Incline curl",
+            "Twist crunch",
+            "Smith machine incline bench press"
         ];
         const luckyEditorArray = ["VSCode", "Vim", "memo"];
         const resultImageObjects = {
