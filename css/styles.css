@@ -6,14 +6,18 @@
 
 .border-red {
     border-bottom: solid;
-    border-bottom-width: 0.2rem;
+    border-bottom-width: 0.1rem;
     border-bottom-color: red;
 }
 
 .border-gray {
     border-top: solid;
-    border-top-width: 0.1rem;
+    border-top-width: 0.05rem;
     border-top-color: rgb(200, 200, 200);
+}
+
+.w-70 {
+    width: 70%;
 }
 
 .w-90 {
@@ -39,20 +43,24 @@ a {
     text-decoration-line: none;
 }
 /* -----------各font class----------- */
-.font0q7rem{
+.font0q7rem {
     font-size: 0.7rem;
 }
 
-.font1q5rem{
-    font-size: 1.5rem;
-}
-
-.font1rem{
+.font1rem {
     font-size: 1rem;
 }
 
-.font3rem{
+.font1q5rem {
+    font-size: 1.5rem;
+}
+
+.font3rem {
     font-size: 3rem;
+}
+
+.font4rem {
+    font-size: 4rem;
 }
 
 .font-bold {
@@ -80,6 +88,7 @@ a {
 .omikuji-log:hover {
     opacity: 0.5;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 /* ------フレーム--------- */
