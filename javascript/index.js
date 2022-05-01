@@ -33,7 +33,7 @@ function createResultPage(omikujiObj){
             <h1 class="my-3 font1rem font-bold">ソフトウェア開発みくじ</h1>
         </div>
         <div class="w-90 mx-2 border-red border-gray">
-            <img src="/image/${omikujiObj.resultImage}" class="mt-3" alt="" width="200px">
+            <img src="image/${omikujiObj.resultImage}" class="mt-3" alt="" width="200px">
             <h2 class="text-danger font-bold font4rem mb-3">${omikujiObj.luck}</h2>
         </div>
         <div class="w-90 mx-2 border-red border-gray">
